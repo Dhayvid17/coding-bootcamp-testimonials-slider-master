@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: block;
+}
+
+.container-i {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0 20px;
+}
+
+.section-i {
+    position: relative;
+    left: 185px;
+    z-index: 1;
+}
+
+.quotes-image-i {
+    left: 100px;
+    position: relative;
+    top: 34px;
+}
+
+.tanya-image {
+    border-radius: 5px;
+    position: absolute;
+    height: 70vh;
+    right: 130px;
+    top: 102px;
+}
+
+.background-i {
+    height: 85vh;
+}
+
+.section-i p {
+    color: hsl(240, 38%, 20%);
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    width: 580px;
+}
+
+.profile-i {
+    margin: 20px 0;
+    width: 300px;
+}
+
+.profile-i p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+.profile-i span {
+    color: hsl(240, 18%, 77%);
+    font-weight: 400;
+    margin: 0 7px;
+}
+
+.icon-i {
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    right: 444px;
+    padding: 14px;
+    position: absolute;
+    bottom: 67px;
+    width: 100px;
+}
+
+.icon-i .next-icon-i {
+    float: right;
+}
+
+.curve-image-i img {
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+}
+
+
+section {
+    display: none;
+}
+
+.container-ii {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0 20px;
+}
+
+.section-iii {
+    position: relative;
+    left: 195px;
+    z-index: 1;
+}
+
+.quotes-image-ii {
+    left: 92px;
+    position: relative;
+    top: 34px;
+}
+
+.john-image {
+    border-radius: 5px;
+    position: absolute;
+    height: 70vh;
+    right: 140px;
+    top: 102px;
+}
+
+.background-ii {
+    height: 85vh;
+}
+
+.section-iii p {
+    color: hsl(240, 38%, 20%);
+    font-size: 32px;
+    width: 546px;
+}
+
+.profile-ii {
+    margin: 20px 0;
+    width: 450px;
+}
+
+.profile-ii p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.profile-ii span {
+    color: hsl(240, 18%, 77%);
+    font-weight: 400;
+    margin: 0 13px;
+}
+
+.icon-ii {
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    right: 444px;
+    padding: 14px;
+    position: absolute;
+    bottom: 67px;
+    width: 100px;
+}
+
+.icon-ii .next-icon-ii {
+    float: right;
+}
+
+.curve-image-ii img {
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+}
+
+/* Responsive Designs */
+
+@media screen and (max-width: 375px) {
+
+    main{
+        display: block;
+    }
+
+    .container-i {
+        /* align-items: center; */
+        display: flex;
+        flex-direction: column-reverse;
+        /* justify-content: space-around; */
+        height: 100vh;
+        /* margin: 0 20px; */
+        text-align: center;
+    }
+
+    .section-ii {
+        margin-top: -20px;
+    }
+
+    .tanya-image {
+        border-radius: 5px;
+        position: absolute;
+        height: 38vh;
+        right: 58px;
+        top: 52px;
+    }
+
+    .background-i {
+        height: 47vh;
+    }
+
+    .quotes-image-i {
+        left: 160px;
+        position: absolute;
+        top: 355px;
+        width: 17%;
+    }
+
+    .section-i {
+        margin-top: -30px;
+        position: unset;
+        text-align: center;
+    }
+
+    .section-i p {
+        font-size: 21px;
+        letter-spacing: 0.2px;
+        width: 330px;
+    }
+
+    .profile-i {
+        width: 300px;
+    }
+
+    .profile-i p {
+        font-size: 18px;
+    }
+
+    .profile-i span {
+        display: block;
+        font-weight: 400;
+    }
+
+    .icon-i {
+        border: 1px solid whitesmoke;
+        border-radius: 40px;
+        height: 40px;
+        right: 139px;
+        padding: 10px;
+        position: absolute;
+        top: 285px;
+        width: 85px;
+    }
+
+    .icon-i .next-icon-i {
+        float: right;
+    }
+
+    .icon-i .prev-icon-i{
+        float: left;
+    }
+
+    .curve-image-i img {
+        position: absolute;
+        bottom: 0px;
+        width: 70%;
+    }
+
+
+
+
+
+
+    section {
+        display: none;
+    }
+
+    .container-ii {
+        /* align-items: center; */
+        display: flex;
+        flex-direction: column-reverse;
+        /* justify-content: space-around; */
+        height: 100vh;
+        /* margin: 0 20px; */
+        text-align: center;
+    }
+
+    .section-iv {
+        margin-top: -20px;
+    }
+
+    .john-image {
+        border-radius: 5px;
+        position: absolute;
+        height: 38vh;
+        right: 58px;
+        top: 53px;
+    }
+
+    .background-ii {
+        height: 47vh;
+    }
+
+    .quotes-image-ii {
+        left: 162px;
+        position: absolute;
+        top: 355px;
+        width: 17%;
+    }
+
+    .section-iii {
+        margin-top: -30px;
+        position: unset;
+        text-align: center;
+    }
+
+    .section-iii p {
+        font-size: 21px;
+        letter-spacing: 0.2px;
+        width: 320px;
+    }
+
+    .profile-ii {
+        width: 300px;
+    }
+
+    .profile-ii p {
+        font-size: 18px;
+    }
+
+    .profile-ii span {
+        display: block;
+        font-weight: 400;
+    }
+
+    .icon-ii {
+        border: 1px solid whitesmoke;
+        border-radius: 40px;
+        height: 40px;
+        right: 137px;
+        padding: 10px;
+        position: absolute;
+        top: 290px;
+        width: 85px;
+    }
+
+    .icon-ii .next-icon-ii {
+        float: right;
+    }
+
+    .icon-ii .prev-icon-ii{
+        float: left;
+    }
+
+    .curve-image-ii img {
+        position: absolute;
+        bottom: 0px;
+        width: 70%;
+    }
+
+
+
+
+}
